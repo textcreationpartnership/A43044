@@ -1,0 +1,710 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A free-will offering by James Harwood ...</title>
+            <author>Harwood, James.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1662</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 76 KB of XML-encoded text transcribed from 49 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2012-10">2012-10 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A43044</idno>
+            <idno type="STC">Wing H1097</idno>
+            <idno type="STC">ESTC R8676</idno>
+            <idno type="EEBO-CITATION">11805595</idno>
+            <idno type="OCLC">ocm 11805595</idno>
+            <idno type="VID">49438</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A43044)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 49438)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 534:12)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A free-will offering by James Harwood ...</title>
+                  <author>Harwood, James.</author>
+               </titleStmt>
+               <extent>[10], 84, [1] p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by J.C. ...,</publisher>
+                  <pubPlace>Dvblin :</pubPlace>
+                  <date>1662.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Reproduction of original in Cambridge University Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Tithes.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2008-08</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2008-10</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2011-09</date>
+            <label>Olivia Bottum</label>Sampled and proofread</change>
+         <change>
+            <date>2011-09</date>
+            <label>Olivia Bottum</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2012-05</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:49438:1" rendition="simple:additions"/>
+            <p>A FREE-WIL Offering.</p>
+            <q>
+               <bibl>
+                  <hi>Gen. 4. part of</hi> verſe <hi>4.</hi>
+               </bibl>
+               <p>And the Lord had reſpect unto Abel and his Offering.</p>
+            </q>
+            <p>BY <hi>JAMES HARWOOD.</hi> D.D.</p>
+            <p>
+               <hi>D<g ref="char:V">Ʋ</g>BLIN:</hi> Printed by <hi>J.C.</hi> Anno Domini, 1662.</p>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:49438:2"/>
+            <pb facs="tcp:49438:2"/>
+            <head>To his GRACE JAMES Duke, Marquis, and Earl of <hi>Ormond:</hi> Earl of <hi>Oſſery</hi> and <hi>Brecknock,</hi> Viſcount <hi>Thurles,</hi> Lord Baron of <hi>Arclo</hi> &amp; <hi>Lanthony,</hi> Lord of the Regalities &amp; Liberties of the County of <hi>Ti<g ref="char:EOLhyphen"/>perary,</hi> Chancellor of the Univerſity of <hi>Dub<g ref="char:EOLhyphen"/>lin,</hi> Lord Lieutenant General, and General Governor of His Majeſties Kingdom of <hi>Ire<g ref="char:EOLhyphen"/>land,</hi> one of the Lords of His Majeſties moſt Honorable privy Council, of His Majeſties Kingdoms of <hi>England, Scotland,</hi> and <hi>Ireland,</hi> Lord Steward of His Majeſties Houſhold, Gentleman of His Majeſties Bed-Chamber, and Knight of the moſt Noble Order of the Garter.</head>
+            <opener>
+               <salute>May it pleaſe your Grace,</salute>
+            </opener>
+            <p>YOur great Imployments might implead my boldneſs, while I have preſumed with unpoliſhed lines, to withdraw you from your high affairs. The Church
+<pb facs="tcp:49438:3"/>
+               <gap reason="duplicate" extent="1 page">
+                  <desc>〈1 page duplicate〉</desc>
+               </gap>
+               <pb facs="tcp:49438:3"/>
+               <gap reason="duplicate" extent="1 page">
+                  <desc>〈1 page duplicate〉</desc>
+               </gap>
+               <pb facs="tcp:49438:4"/>and State, under God, depend upon you; you have given ſuch aſſured Teſtimonies of your care to tutor up theſe Twins, ſo that Clergy and Laity, bid you welcome; as wiſhed for by all true <hi>Proteſtants,</hi> and prayed for by all the ſuffering Sons of <hi>Levi.</hi> We look upon you, as the <hi>Phyſici<g ref="char:EOLhyphen"/>an</hi> ſent to cure our Kingdoms maladies; as the Maſter <hi>Pilot,</hi> able to ſteer to a ſafe Harbour, this crazy Veſſel, the Common<g ref="char:EOLhyphen"/>weal: The Star in the Eaſt conducted the Wiſemen to the Cratch of Chriſt; and that moſt reſplendent Conſtellation, <hi>Charls</hi> his Wain, is your Conductor to this Kingdom. We honor our King, for he honors God; we honor you, who honors the King: The King hath given you a Commiſſion, and our Church gives you her bleſſing; yea, <hi>Bleſſed is he who comes in the name of the Lord.</hi>
+            </p>
+            <pb facs="tcp:49438:4"/>
+            <p> 
+               <hi>Moſt Mighty Prince,</hi> I have nei<g ref="char:EOLhyphen"/>ther <hi>Myrrhe,</hi> nor <hi>Aloes,</hi> nor <hi>Caſſia</hi> to preſent to your Illuſtrious High<g ref="char:EOLhyphen"/>neſs; yet a little oyl in a barrel; not much, for not Maſter of much; not leſs, leſt my preſent had been leſs then the Widows Mite. <hi>Chriſt</hi> feaſted thou<g ref="char:EOLhyphen"/>ſands, with a few Loaves and Fiſhes: No marvel He could make that little more.</p>
+            <p>My little I can make neither more nor leſs; not leſs, leſt too little ſhould be brought to the Table; not more, leſt your State affairs ſhould ſurfeit of long lines.</p>
+            <p>Here is a <hi>Viaticum &amp; Modicum,</hi> an Offering, and a ſmall one, preſented by him who joys in your preſence; who was engaged to honor you, before he ſaw you: Your favours at a diſtance ob<g ref="char:EOLhyphen"/>lige, and your love to the CH<g ref="char:V">Ʋ</g>RCH
+<pb facs="tcp:49438:5"/>commands for you, and all yours, the prayers,</p>
+            <closer>
+               <signed>
+                  <hi>Of your moſt humble, devoted Servant,</hi> James Harwood.</signed>
+            </closer>
+         </div>
+         <div type="table_of_contents">
+            <pb facs="tcp:49438:5"/>
+            <head>THE CONTENTS.</head>
+            <list>
+               <item>A Chriſtians Looking-Glaſs, 1</item>
+               <item>Mercy beyond Meaſure, 13</item>
+               <item>Gods Magiſtrates, the Peoples De<g ref="char:EOLhyphen"/>liverers, 21</item>
+               <item>A home charge for all Subjects, 30</item>
+               <item>
+                  <hi>Sions</hi> ſad Complaint, 37</item>
+               <item>The Angels Antheme, 43</item>
+               <item>A Leſſon for Souldiers, 51</item>
+               <item>Gods love, mans life, 60</item>
+               <item>Gods Preſence, Patients Protector, 67</item>
+               <item>Where Unity, Amity, 76</item>
+            </list>
+         </div>
+         <div type="errata">
+            <pb facs="tcp:49438:6"/>
+            <head>ERRATA.</head>
+            <p>
+               <hi>PAge</hi> 10. <hi>l.</hi> 6. <hi>after</hi> he is a ſinner, <hi>adde,</hi> and whilſt, <hi>p.</hi> 58. l. 3. <hi>r.</hi> Mutineer, p. 37. <hi>line</hi> 10, <hi>for</hi> Alphaltes, <hi>read</hi> Aſphaltes, <hi>p.</hi> 41. <hi>l.</hi> 6. <hi>for</hi> Doe, <hi>r.</hi> dare, <hi>p.</hi> 46. <hi>l.</hi> 11. <hi>adde,</hi> it, <hi>after the word</hi> ſhall, <hi>p.</hi> 47. <hi>l.</hi> 19. <hi>for</hi> men, <hi>r.</hi> man, <hi>p.</hi> 56. <hi>l.</hi> 3. <hi>for</hi> did, <hi>r.</hi> dyed, <hi>l.</hi> 18. <hi>for</hi> tripertite maudat, <hi>r.</hi> tripartite man<g ref="char:EOLhyphen"/>dat, <hi>p.</hi> 59. <hi>l.</hi> 9. <hi>for</hi> care, <hi>r.</hi> can, <hi>p.</hi> 70. <hi>l.</hi> 6. <hi>for</hi> madles, <hi>r.</hi> madles.</p>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb n="1" facs="tcp:49438:6"/>
+            <head>A FREE-WIL Offering.</head>
+            <div type="part">
+               <head>A CHRISTIAN LOOKING-GLASS.</head>
+               <p>I <hi>Said I will look unto my ways,</hi> Pſal. 39.1.] A Good reſolution, if brought to Birthdom; but O, it is time to reſolve of Good, when Evil hath harraſed the ſoul: And yet what are all my reſolves beneficial to me, if I reſolve not to do as I determine: I confeſs, <hi>Say well is good,</hi> but <hi>Do well is better;</hi> but as the fruit is firſt in the bud, ſo the bloſſom of a good intent firſt
+<pb n="2" facs="tcp:49438:7"/>blooms <hi>à Corde,</hi> then <hi>in os,</hi> then <hi>in opus.</hi> I am in hopes to proceed on happily; when <hi>à Radice</hi> from the root, there is a viſible ſhew tending to perfection.</p>
+               <p>
+                  <hi>I ſaid I will]</hi> A word would almoſt warrant an happy iſſue: Reſolute intents to do good, are ſtout Agitators to aſſiſt firſt endeavours: Yet if this, <hi>I will,</hi> pro<g ref="char:EOLhyphen"/>ceed from humane confidence, the weak<g ref="char:EOLhyphen"/>eſt temptations lay flat our preſumptu<g ref="char:EOLhyphen"/>ous undertakings. Let me beg the aſſiſt<g ref="char:EOLhyphen"/>ance of God, and by his adjuvant grace, my <hi>Will</hi> will ſcale the Walls of <hi>Jeri<g ref="char:EOLhyphen"/>cho.</hi>
+               </p>
+               <p>
+                  <hi>I ſaid I will]</hi> This is the language of a Saint, a Sinner, a Devil: Saith the unclean Spirit, Then <hi>I will return;</hi> the Devil he wills a miſchief to man; a Sin<g ref="char:EOLhyphen"/>ner to himſelf; a Saint, the ſin-ſlaugh<g ref="char:EOLhyphen"/>ter in his ſoul. The Devil is peremptory to repoſſeſs, the ſinner wilful to do evil, the Saint hath a will to do good: What
+<pb n="3" facs="tcp:49438:7"/>a fair ſhew makes this man of God? ſo he is; and yet a man after Gods own heart may have a fearful ſtop betwixt his intent and act. Again, had not <hi>David</hi> failed to perform, he had never been thus reſolute to have will'd: when ſin over<g ref="char:EOLhyphen"/>takes Gods childe, if the childe of God, he takes up new reſolutions to amend, and as the Ram giveth the biggeſt puſh runs the furtheſt back, ſo the backſliding of a ſinner, may, if grace, ſerve to amend his pace to Paradiſe. Surely here hath been a ſinful party ſent out to divert our Kingly prophet in his ſpiritual progreſs; Elſe why is it reſolved upon the caſe, <hi>I will look unto my ways?</hi> If he had not with <hi>Lots</hi> Wife, lately lookt back to carnal <hi>Sodom,</hi> here had been leſs need at this preſent to look unto his ways. But O, when the old Man ſtands in the way, the good Man had need carry both his eyes in his head! Though it be natural
+<pb n="4" facs="tcp:49438:8"/>for the works of darkneſs to blindefold our beſt of intellectuals, yet by a ſpiri<g ref="char:EOLhyphen"/>tual vertue in the herb of Grace, my ſin is made my eye-ſalve; and fro once, with the Snake, I have rubb'd my ſpeckled Conſcience betwixt thoſe two peeble ſtones, the two Tables, the ten Com<g ref="char:EOLhyphen"/>mandments; then thoſe ſcales, <hi>Ignorance of my offences</hi> pill off: And inſtead of walking, <hi>Will.</hi> Then I reſolve I will look unto my ways; but no ſooner do I look, but lo, Bears and Bug-bears, ſad afflictions, and diſguiſed treſpaſſes: I lookt, and knew not this laſt, my <hi>peccata ſplendida:</hi> till I lookt, and lookt again <hi>ad Dei Judicia,</hi> I offered up for my Quit<g ref="char:EOLhyphen"/>rent to the Lord of Heaven, counterfeit Coyn for current Silver; till the Touch<g ref="char:EOLhyphen"/>ſtone, Affliction, diſcovered <hi>Hypocriſie</hi> to be the metal within, whileſt <hi>Exter<g ref="char:EOLhyphen"/>nal Profeſſion</hi> the thin covering without. O let me be, what I ſeem to be, other<g ref="char:EOLhyphen"/>wiſe
+<pb n="5" facs="tcp:49438:8"/>there is a God will ſet me out in my own colours: I know it, and for cer<g ref="char:EOLhyphen"/>tain, that though I may cozen man, yet I cannot deceive my God; and there<g ref="char:EOLhyphen"/>fore leſt I be found a diſſembler with man, or with ire to encenſe my Maker, once more, <hi>I will look unto my ways,</hi> and look at them with a double eye, <hi>Corpo<g ref="char:EOLhyphen"/>ris, mentis:</hi> At all without, in the con<g ref="char:EOLhyphen"/>fines of my Converſation; and at all within, in the territories of my Conſci<g ref="char:EOLhyphen"/>ence: With my bodily eye, I can ſpy much amiſs; with my eye ſpiritual much more: While I ſee without, I may be blinde within; and ſpy a world of won<g ref="char:EOLhyphen"/>ders in this great World, and yet not ſee that World of wickedneſs in this little World.</p>
+               <p>O Lord, open the eye of my under<g ref="char:EOLhyphen"/>ſtanding, leſt while I look and ſee the way to thy Church, I miſs of thy King<g ref="char:EOLhyphen"/>dom; yet leſt I miſs, I will look
+<pb n="6" facs="tcp:49438:9"/>
+                  <list>
+                     <item>
+                        <hi>ad Siniſtram,</hi> at my Corroſives.</item>
+                     <item>
+                        <hi>ad Dextram,</hi> at my Cordials</item>
+                  </list>
+               </p>
+               <p>At my Corroſives, my croſſes in this life, ſeeming hindrances in my ſpiritual Pilgrimage; but <hi>ſanctified,</hi> pricking ſpurs, preſſing me unto the <hi>prize of my high cal<g ref="char:EOLhyphen"/>ling.</hi> O God, my God, twenty years current have thoſe laſted, and hadſt not thou put ſtrength into my anckle bones, long ſince, with <hi>Gad</hi> and <hi>Reuben,</hi> I had ſat me down on this ſide <hi>Jordan.</hi> And now I turn <hi>ad Dextram,</hi> to the right hand of thy gracious favours, high cor<g ref="char:EOLhyphen"/>dials, in the upſhor of long diſtempers. O heavineſs hath endured a long Win<g ref="char:EOLhyphen"/>ter night, but joy is come in the morn<g ref="char:EOLhyphen"/>ing, a Plerophoria, a full ſea of Peace and plenzy.</p>
+               <p>O my God, as Adverſity did nor quire deject me, ſo let not Proſperity puff me up: Now that I am in part reſtored
+<pb n="7" facs="tcp:49438:9"/>to my Means, let not my Means make me forget my Maker: Beleive it, he who ſets his heart on Earth, ſhall never inhe<g ref="char:EOLhyphen"/>rit Heaven: Now I am out of the bryars, Lord, let not the pleaſant Pageants with<g ref="char:EOLhyphen"/>draw my eyes: God ſent afflictions to wean me from the World; theſe con<g ref="char:EOLhyphen"/>tentments are proffered to try, whether I love God more then the World: I may look at them, and not loſe my way; if I love them, and inordinately, I am at a loſs, and for ever: And therefore once more I will look about me, leſt ſuppreſſed by Adverſity, or ſurprized by Proſperi<g ref="char:EOLhyphen"/>ty.</p>
+               <p>Now this is done, I will up, and on, and having little time, and far to go, and many by-paths in my paſſage, <hi>I will look unto my ways.</hi> There is but one way, and yet it is here ſaid, <hi>I will look unto my ways:</hi> Chriſt is the way, <hi>via recta, via tuta;</hi> all other ways are <hi>viae deviae, by-ways;</hi> and
+<pb n="8" facs="tcp:49438:10"/>yet this way Chriſt is cut into two pathes, <hi>is viam Divinitatis, Humanitat is:</hi> The firſt ſtep into the Heavenly way, is <hi>per Chriſti Incarnationem;</hi> the ſecond is, <hi>per Chriſti Divinitatem:</hi> The hand that leads into theſe two, which run into one, is, <hi>Amor Dei,</hi> the love of God; <hi>For God ſo loved the world, that be ſent his Son, the ſecond Perſon;</hi> and therefore God; born of a Virgin, and therefore <hi>made man.</hi> Now this is made my way to Heaven, <hi>efficienter à Deo, inſtrument aliter per ſidem;</hi> and this way is by Chriſts Godhead, Manhood, whileſt <hi>the God<g ref="char:EOLhyphen"/>bead dwels in him bodily.</hi> And now the two Natures being joyned together in one Perſon, and that by an Hypoſtatical union; this conſidered, that one way may admit of a plural, without preju<g ref="char:EOLhyphen"/>dice to the ſingle ſingular way: I mean, to him, who is <hi>the Way, the Truth, and the Life.</hi> But as all that go to Hea<g ref="char:EOLhyphen"/>ven,
+<pb n="9" facs="tcp:49438:10"/>muſt look unto this <hi>way, Chriſt,</hi> cut into two pathes; ſo I muſt look unto my waies; <hi>ways</hi> for <hi>Plurality,</hi> mine for <hi>Pro<g ref="char:EOLhyphen"/>priety.</hi>
+               </p>
+               <p>How different are theſe two waies! the <hi>way Chriſt,</hi> and <hi>my waies;</hi> that is <hi>the way of Life,</hi> this the <hi>way of Death;</hi> Have I not need now to look about me? Miſs of that fiſt, and I am out of the way to Heaven; walk in this other, and I march a full career to Hell; and yet I am never in hopes to come into the <hi>way Chriſt,</hi> till I take a ſurvey of my own waies, my thoughts, words, and works.</p>
+               <p>This is a large task, and this a la<g ref="char:EOLhyphen"/>zy generation: Much is to be done, and all to be left undone, portends a fearful doom: <hi>O</hi> Jacob, <hi>why layeſt thou thy head upon a ſtone? O</hi> Jonah, <hi>why ſleepeſt thou in the howl of the ſhip? O ye Diſciples, can ye not watch one hour!</hi> O! the ſluggiſh blankets of carnal ſecurity,
+<pb n="10" facs="tcp:49438:11"/>have lull'd Gods deareſt ſons aſleep, when the Philiſtines have been ready to fall up<g ref="char:EOLhyphen"/>on them: The Diſciples let Chriſt be taken from them; O let not your ſelves be taken from Chriſt. He that ſleeps in ſin is ſenſleſs, and whileſt he is a ſinner; he looks not to his waies; he caſts not an eye to Chriſt, nor Chriſt to him; but mark whats ſaid, <hi>I will look to my waies;</hi> Is it not high time, when ſurround in the rotten bogs of Whoredom and Blood<g ref="char:EOLhyphen"/>ſhed.</p>
+               <p>It hath been the hard hap of the Elect to tread awry, and ere, aware to ſtep in<g ref="char:EOLhyphen"/>to the Red-ſea of blood, by the miſlead<g ref="char:EOLhyphen"/>ing of the old Man in the Womans ha<g ref="char:EOLhyphen"/>bit. Here are ways to be lookt at, not walkt in: See them, and ſhun them, they are dangerous by-waies, leading to Hell, leading from Heaven: Their names are theſe, <hi>The <g ref="char:V">Ʋ</g>nclean Spirits Round, Relapſe into ſin, That beaten Tract Cove<g ref="char:EOLhyphen"/>touſneſs,
+<pb n="11" facs="tcp:49438:11"/>which is Idolatry; That way which went of late too night the Royal Pa<g ref="char:EOLhyphen"/>lace, Rebellion and Regicide; Hold of Hell-gars, Deſpair; the ſhadowed Grove Hypocriſie; The barren Mount, Preſum<g ref="char:EOLhyphen"/>ption; The new Reformers Road, Sacri<g ref="char:EOLhyphen"/>ledge:</hi> Theſe have been common high<g ref="char:EOLhyphen"/>waies, leading to Hell, Death, and the Devil; and now the late walkers in them, though diſguized with the vizard of ſeeming Saintſhip are diſcovered: But there are other more covert waies I muſt look to, if ever I look to go to Heaven: And in ſpecial, that way or walk in which my corrupt heart meets with, firſt <hi>Motions to ſin, Aſſent to ſin, A will to ſin, A ſeduced judgement to approve of ſin in the ſecret of my ſoul:</hi> Look to theſe waies, and root out all thou meeteſt; and fear not thou the wide road of thy conver<g ref="char:EOLhyphen"/>ſation. Smother ſin in that way, the en<g ref="char:EOLhyphen"/>trance into the womb of thy heart, and
+<pb n="12" facs="tcp:49438:12"/>the work is done; neither needeſt thou fear, but that is the way to life everlaſt<g ref="char:EOLhyphen"/>ing.</p>
+               <p>But the Prophets Poſſeſſive, <hi>my, my waies,</hi> makes him owner of theſe high<g ref="char:EOLhyphen"/>waies; ſaith the Lord, <hi>My waies are not your waies:</hi> This <hi>Mine and Thine,</hi> makes or mars.</p>
+               <p>Mans waies have in them nought of God; Gods waies have in them nought of man. While I look unto my waies, I ſee a <hi>ſuper plus</hi> of ſins, While at Gods, the way to be disburthened of my ſin.</p>
+               <p>To conclude, <hi>I will look unto my ways,</hi> through that looking glaſs the Law, ſo I ſhall ſee I am a ſinner: I will look, O Lord, unto <hi>thy waies,</hi> which <hi>thy ſacred Teſta<g ref="char:EOLhyphen"/>ment</hi> points me out, to enſure me of a Saintſhip.</p>
+               <p>And now O Lord, lead me in thy <hi>way,</hi> that ſo I may poſſeſs my ſoul in
+<pb n="13" facs="tcp:49438:12"/>peace: Lord, give me grace to look un<g ref="char:EOLhyphen"/>to <hi>my ways,</hi> that ſo I may eſcape that death, death eternal.</p>
+            </div>
+            <div type="part">
+               <head>MERCY beyond MEASURE.</head>
+               <epigraph>
+                  <q>
+                     <bibl>
+                        <hi>Pſal. 58. part of</hi> verſ. <hi>1.</hi>
+                     </bibl>
+                     <p>Lord, thou art become gracious unto thy Land.</p>
+                  </q>
+               </epigraph>
+               <p>THe people of God are returned from bondage, and they ſing a Pſalm of Thankſgiving: all <hi>Iſrael</hi> have been Captives, and this their deli<g ref="char:EOLhyphen"/>verance is of the Lords doings.</p>
+               <p>What the arm of man conoot, the finger of God can bring to paſs: In the low ebb of Miſery, he can buoy up to a full ſea of felicity.</p>
+               <p>The Iſraelites are carried into <hi>Baby<g ref="char:EOLhyphen"/>lon,</hi>
+                  <pb n="14" facs="tcp:49438:13"/>and the Babylonians are planted in the Land of <hi>Iſrael;</hi> Gods own people at a loſs, and the Devils darlings bear all the ſway: Sad news for the Saints, to ſee ſuch in their poſſeſſions, and they tranſplanted into a forreign Land, <hi>and impriſoned:</hi> But we muſt not judge them the beſt, who prevail the moſt. As ſin<g ref="char:EOLhyphen"/>ners in the next world ſhall not eſcape Gods venngeance, ſo Saints in this life oft times are ſad ſufferers, yea, and ſuch ſuffer<g ref="char:EOLhyphen"/>ers, as cannot ſing a ſong of <hi>Sion,</hi> while by the banks of <hi>Bybylon.</hi>
+               </p>
+               <p>O! Meſery without Remedy, is able to leave heart-leſs the beſt of Saints; yet when my reaſon fails to foreſee deli<g ref="char:EOLhyphen"/>verance, let my faith in God tow me to the firm land of his gracious promiſes. Though I ſhould ſee no hopes in my frail judgement of a ſettlement, yet will I hope for peace; for that thou the God of peace art become gracious unto thy land,
+<pb n="15" facs="tcp:49438:13"/>to it and us: To us who wanted grace to ſerve thee; gracious to us who were enemies to our ſelves: The God of peace hath made our peace; he will have peace with us, who had open war with him: His mercie is over all his works, and our ſinful works cannot over-maſter <hi>his mer<g ref="char:EOLhyphen"/>cy:</hi> Of his own free grace he is recon<g ref="char:EOLhyphen"/>ciled with us; our ſins ſet us at odds, Gods love to man made the compoſition; what love owe we to him, who ſo loved the world? who loved man, that loved not himſelf? who ſhewed love to us, to learn us to love one another?</p>
+               <p>When Heaven proclaims peace, a ſhame it is for us earthy worms to live at odds; let the grace of God lead on to <hi>have peace will all men;</hi> and the more mercie the Lord ſhews to us, the leſs de<g ref="char:EOLhyphen"/>bate let be found among us our ſelves.</p>
+               <p>But wherein, O Lord, art thou be<g ref="char:EOLhyphen"/>come gratious unto us? If any want
+<pb n="16" facs="tcp:49438:14"/>
+                  <hi>eyes,</hi> and ſees it not, let him that hath ears hear it.</p>
+               <p>Was there ever ſuch an univerſal de<g ref="char:EOLhyphen"/>vaſtation, <hi>Threè Nations off the Hinges, Givil and Eccleſiaſtical Government diſ<g ref="char:EOLhyphen"/>joynted, The Heads of the Kirk and King<g ref="char:EOLhyphen"/>dom made ſhorter by the head,</hi> Pharaohs <hi>lean Kine, devoured all the fat,</hi> Peters <hi>Pa<g ref="char:EOLhyphen"/>trimony was but a breakfaſt, The Kingly Revenue unable to pay the publique faith, The Riches of the Land exhauſted, The Souldier unpaid, and our lives and liveli<g ref="char:EOLhyphen"/>hood left to the indiſcretion of an Arbi<g ref="char:EOLhyphen"/>trary power.</hi>
+               </p>
+               <p>When we were fallen into this irre<g ref="char:EOLhyphen"/>pairable Conſumption, the Lord ſet us on foot again, compoſed our differences without blood-ſhed; made peace, when no hopes of peace, replanted thouſands under their own vines: Now we may live at home without fear, enjoy our own, without ſequeſtration; have the
+<pb n="17" facs="tcp:49438:14"/>ſociety of our Wives and young ones, in deſpite of Pike and Piſtol.</p>
+               <p>O God, my God, this is thy great work; this we attempted, but could not bring to paſs: This thou haſt done, and none elſe could do it. To our endeſs comfort we may now report, how <hi>Thou, O Lord, art become gracious to thy Land:</hi> Thou haſt reſtored the Kingdom to the King, and the King to his Kingdoms; the Nobles to their Honours, and the Commons to their Birthright; the Law is reſtored, and the Goſpel preſerved, and there is peace from <hi>Dan</hi> to <hi>Beerſhe<g ref="char:EOLhyphen"/>ba.</hi> And now is not he ungrate, who will not warble out this note, <hi>O Lord, thou art become gracious to thy Land?</hi>
+               </p>
+               <p>If it had not been thine, thou wouldſt not redeemed it; if thou hadſt not been the Lord of Hoſts, no other L. General could have done it: But what is thine, who can keep from thee? To think who
+<pb n="18" facs="tcp:49438:15"/>thou art, is able to blunt the edge of all oppoſers: Bleſſed be God, for that our Land is thine, and thou haſt owned it; and that thou who art Lord of Heaven, we hold our land here below on thee.</p>
+               <p>But by <hi>the Land,</hi> is meant all in the Land. The Brutes have found Gods favour, they did groan under the preſſure of a Civil War: The War is ended, and they at quiet; now they may take their paſtime in the paſtures, skipping over the Mountains, and leaping over the Valleys.</p>
+               <p>Their Maſters by a <hi>Metonymie,</hi> may be here meant; and by <hi>Land,</hi> be un<g ref="char:EOLhyphen"/>derſtood the inhabitants of the land; bleſſed not onely in their new Reſtore<g ref="char:EOLhyphen"/>ment, but late puniſhment. We had little grace, till we had a large laſh; we had ſinned much, and have ſuffered long: And as the Walnut-tree brings forth moſt fruit, when moſt cudgel'd;
+<pb n="19" facs="tcp:49438:15"/>ſo that Sons of God are moſt penitent, when moſt afflicted: And thus our God is doing us good, when we think harm; he was never more gracious to his three Confeſſors, then when they were in the furnace: He caſts us into the fire of affliction, to make us run for cur<g ref="char:EOLhyphen"/>rent coyn in his Kingdom: He brings us to Heaven by Hell-gates, and firſt hacks and hues the bole of our bodies, to make men ſerviceable timber to build up a living Altar.</p>
+               <p>His Cedars are fel'd, and now made fit; his metal melted, and the gold re<g ref="char:EOLhyphen"/>ſined: The fuel is conſumed, but the Bullion forth coming; our Tormentors taken away, and we ſufferers ſaved: O our good God, he whips his childe, and burns his rod; purges us, and ex<g ref="char:EOLhyphen"/>punges our foes.</p>
+               <p>Bleſſed be our God, who in mercy hath corrected us, while in fury he hath
+<pb n="20" facs="tcp:49438:16"/>conſumed them; them who had pul<g ref="char:EOLhyphen"/>led down Majeſtie, Magiſtracy, Mi<g ref="char:EOLhyphen"/>niſtery.</p>
+               <p>They made our Kingdom an <hi>Akel<g ref="char:EOLhyphen"/>dama, a field of blood;</hi> our Church, <hi>a Den of thieves;</hi> our Judicatures, <hi>the High-places of high injuſtice.</hi>
+               </p>
+               <p>But thou, O Lord, haſt delivered us out of <hi>the Lyons paw, from blood<g ref="char:EOLhyphen"/>thirſty, and blood-guilty men,</hi> who tyran<g ref="char:EOLhyphen"/>nized over King and Kingdom, Church and Church-men: And for this cauſe we cannot but ſinging ſay, and ſaying ſing, <hi>How, O Lord, thou haſt been gra<g ref="char:EOLhyphen"/>cious to thy Land.</hi>
+               </p>
+            </div>
+            <div type="part">
+               <pb n="21" facs="tcp:49438:16"/>
+               <head>GODS MAGISTRATES THE <hi>Peoples Deliverers.</hi>
+               </head>
+               <epigraph>
+                  <q>
+                     <bibl>
+                        <hi>Pſal. 77.20.</hi>
+                     </bibl>
+                     <p>Thou didſt lead thy people like ſheep, by the hand of Moſes and Aaron.</p>
+                  </q>
+               </epigraph>
+               <p>THeſe words are ſpoke by <hi>David,</hi> when ſore afflicted; what misfor<g ref="char:EOLhyphen"/>tune had befallen him, I finde not upon record; that ſhrewdly in<g ref="char:EOLhyphen"/>cumbred, is without diſpute: But what! a King, and ſurrounded with ſorrow, and beſet with care! O! Ma<g ref="char:EOLhyphen"/>jeſtie is not exempt from miſery, no more then the faireſt day, from a dark cloud, and daſhing ſhower.</p>
+               <pb n="22" facs="tcp:49438:17"/>
+               <p> But ſay the ſtorm be raiſed, and <hi>Da<g ref="char:EOLhyphen"/>vid</hi> in it, How comes it to be becalmed? When I think what God did for <hi>the three,</hi> it puts me in hopes how he will relieve <hi>one;</hi> I cannot but confide, How my God will free his ſervant from the conſpiracy of wicked men, while I call to minde, <hi>How thou my God didſt lead thy people, like ſheep, out of Egypt, by the hand of Moſes and Aaron.</hi>
+               </p>
+               <p>Never people more made ſlaves, forc't to work much, and want their wages; their task of brick is enreaſed, and their ſtubble take from them; they are or<g ref="char:EOLhyphen"/>dered to ſpend all their days in <hi>Pharaohs</hi> Brick-kilns, and yet while they do <hi>Pha<g ref="char:EOLhyphen"/>raohs</hi> work, <hi>Pharaoh</hi> murthers all their males.</p>
+               <p>Our Kingly Prophet in the midſt of his preſſures, calls to minde this ſlaviſh oppreſſion; he grieved before, takes up now; had almoſt deſpaired of ſupport,
+<pb n="23" facs="tcp:49438:17"/>but that he calls to minde, how in de<g ref="char:EOLhyphen"/>ſpite of <hi>Pharaoh</hi> and his Hoſt, from the Houſe of Bondage, it was thou, O Lord, who didſt <hi>lead thy people like ſheep, by the hand of Moſes and Aaron.</hi>
+               </p>
+               <p>Gods Deliverance, when paſt all hopes in Humane reaſon, is a ſtrong Rampire to keep off <hi>Deſpair.</hi> Let us bear then with patience all our croſſes, ſince <hi>the Arm of the Lord is not ſhort<g ref="char:EOLhyphen"/>ned.</hi>
+               </p>
+               <p>He ſaves by unities, as well as uni<g ref="char:EOLhyphen"/>verſalities; and one <hi>Moſes,</hi> and one <hi>Aa<g ref="char:EOLhyphen"/>ron,</hi> is enough for him to lead his <hi>people out of Egypt.</hi>
+               </p>
+               <p>But Magiſtracy and Miniſtery are under a cloud, and yet the people like ſheep, are led by thoſe the Lord hath ſet over them. You ſee adverſity of old could not make diſloyal Subjects, but proſperity of late hath buoyed up too many into Rebellion: This is too ap<g ref="char:EOLhyphen"/>parent,
+<pb n="24" facs="tcp:49438:18"/>parent, while all the <hi>people, like ſheep, were led by the hand of Moſes and Aaron:</hi> But in our times, <hi>Moſes</hi> and <hi>Aaron</hi> have been led like ſheep to the ſlaughter, by the hand of the common people.</p>
+               <p>I ſhall not ſo much inveigh againſt our bloody Regicides, as commend theſe loyal ſubjects; though in a forreign Land, and they all captivated, yet the words import their obedience to their Superiors; they are at the command of <hi>Moſes</hi> their head Magiſtrate, and <hi>Aaron</hi> their prime Dioceſan.</p>
+               <p>Where Loyalty and Conformity is the Coat, Deliverance by the Prince and Prieſt is the Creſh; we ſhall ſtick in the mine, till theſe bring us out of the dirt: Know it, That obedience to the Law of the Land, and the Diſcipline of the Church, aſſure deliverance: We may ſuffer long, and ſee ſmall help, yet let us live in Loyalty to the King, and obedi<g ref="char:EOLhyphen"/>ence
+<pb n="25" facs="tcp:49438:18"/>to our <hi>Aaron,</hi> and God will bleſs us: There hath been no want on Gods part; we want hearts ſeriouſly to conſi<g ref="char:EOLhyphen"/>der, what great things our great God hath brought to paſs for the good of us, by the hand of our <hi>Moſes,</hi> and our <hi>Aaron;</hi> by the meekneſs of the one, and wiſdom of them both, they have ſettled the Laity in their Lands, and the Cler<g ref="char:EOLhyphen"/>gy in their Livings: So that now to the praiſe of God, and comfort of us, and all ours, we can ſay, <hi>Though not out of the Land of Egypt, yet out of the houſe of Bondage, thou, O Lord, haſt led thy people like ſheep, by the hand of Moſes and Aaron.</hi>
+               </p>
+               <p>It is thou, O Lord, &amp; <hi>nil deſper an<g ref="char:EOLhyphen"/>dum Caeſare duce:</hi> Thou didſt lead, that's our joy, the work is done; and we de<g ref="char:EOLhyphen"/>livered. But who are theſe the Lord delivered? A people for plurality, thine for propriety.</p>
+               <pb n="26" facs="tcp:49438:19"/>
+               <p> It is Gods good will to be guid to the people: whileſt led, they are ſure not to be miſled: For thy people, thine by Creation; thine by Redemption: Redemption ſpiritual from the Power of the old man; Redemption Corpo<g ref="char:EOLhyphen"/>ral from the ſons of Belial.</p>
+               <p>But thou, O Lord, haſt led the <hi>people like ſheep; Iſrael</hi> of old, <hi>Ireland</hi> of late, like ſheep: Thou haſt led us, not to the ſlaughter, but from the ſlaugh<g ref="char:EOLhyphen"/>ter-houſe, the High-Court of high-in-juſtice, and many ſlain; and yet we thy people were like ſheep, ſcarce opening our mouthes before the Shearers, con<g ref="char:EOLhyphen"/>tent to part with our fleece, to ſave our fleſh.</p>
+               <p>What is more innocent the ſheep? And what had we done againſt them that did riſe up againſt us?</p>
+               <p>Thus, O Lord, thou haſt called back
+<pb n="27" facs="tcp:49438:19"/>the Captivity of a people, as harmleſs as ſheep; for neither againſt our King nor Kingdom were we Offenders.</p>
+               <p>But it is here ſaid, O Lord, how thou <hi>ledſt thy people by the hand,</hi> to point out the way, not by the ſword to cut out a way.</p>
+               <p>But this is done by hand of <hi>Moſes</hi> and <hi>Aaron,</hi> and bleſſed be thoſe Coun<g ref="char:EOLhyphen"/>ſellours to our King, who when it was War, have made Peace: The worſt of Enemies, if they have the leaſt of Grace, will ſhake hands with this <hi>Moſes,</hi> and this <hi>Aaron.</hi> The twain are ſaid to have one hand, to note an unanimity: O happy is the Land, when theſe go hand in hand, the Prince and the Prelate: Then is the beſt of times, when <hi>Aaron</hi> bows to <hi>Moſes</hi> his Scepter, and <hi>Moſes</hi> by Law upholds <hi>Aarons</hi> Mitre.</p>
+               <p>Though theſe be the Inſtruments, God's the Author of our Deliverance:
+<pb n="28" facs="tcp:49438:20"/>Our help then ſtood in the Lord our God, for thou didſt lead us out, and brought us in; for our ſin thou didſt puniſh us, and of thy mercy thou for<g ref="char:EOLhyphen"/>gaveſt us, we may blame our ſelves for our captivity. It is to thee, O Lord, we give thanks for our liberty.</p>
+               <p>But thou, who dwelleſt in Heaven, made uſe of ſome choice ſervants upon earth to redeem us, as the Iſraelites; yet <hi>give thanks, but to thy name be the praiſe.</hi>
+               </p>
+               <p>Here muſt we, after a thankful ac<g ref="char:EOLhyphen"/>knowledgement made to thee our God, not neglect to honor thoſe, whom under thee, O God, thou haſt honored to be our Church and State Reſtorers.</p>
+               <p>Bleſſed ſhall they be in the Kingdom of Heaven, who under God, and the King, have been inſtrumental to ſet at freedom this Kingdom.</p>
+               <p>It is fawning flattery, but Chriſtian
+<pb n="29" facs="tcp:49438:20"/>civility, to bleſs them both, who have the chief Government in this our Church and Kingdom, whoſe hands and hearts theſe many years have been lifted up to God by prayer for us, when others had made a prey of us; whoſe grave coun<g ref="char:EOLhyphen"/>ſels, added to the wiſdom of our young <hi>Solomon,</hi> have brought to nought the Worldly wiſdom of all Trayterous <hi>Achitophels.</hi> Let us acquieſce under the pious Goverment of their Graces, ſince no new cuſtom, but the old faſhi<g ref="char:EOLhyphen"/>on, thus to be governed, and thus to govern; for of old, <hi>O Lord, thou didſt lead thy people like ſheep, by the hand of Moſes and Aaron.</hi>
+               </p>
+            </div>
+            <div type="part">
+               <pb n="30" facs="tcp:49438:21"/>
+               <head>A home CHARGE for all <hi>Subjects.</hi>
+               </head>
+               <epigraph>
+                  <q>
+                     <bibl>
+                        <hi>Prov. 24.21.</hi>
+                     </bibl>
+                     <p>Fear God and the King.</p>
+                  </q>
+               </epigraph>
+               <p>THe Object of fear, is <hi>God in Hea<g ref="char:EOLhyphen"/>ven, The King on Earth;</hi> God in the firſt place, the King in the ſe<g ref="char:EOLhyphen"/>cond: I muſt ſo reverence God, that I ſlight not his Vice-gerent; and ſo ob<g ref="char:EOLhyphen"/>ſerve my King, that I forget not to be the ſervant of the living God.</p>
+               <p>Love adviſes, <hi>To fear God;</hi> Allegiance bindes to ſtand in aw of the King: The one, for that, The Father of Spirits; the other, for that <hi>Pater Patriae,</hi> the Father of the Countrey.</p>
+               <p>But let us look at theſe two conjunct,
+<pb n="31" facs="tcp:49438:21"/>ſevered: Conjunct, as if no fear of God in them, that injure the King; as if the Civil Governor be contemned, our Ce<g ref="char:EOLhyphen"/>leſtial Commander is lightly ſet by.</p>
+               <p>
+                  <hi>Fear God</hi>] And ſhew thy ſelf religi<g ref="char:EOLhyphen"/>ous: Thy fear to offend the King, wit<g ref="char:EOLhyphen"/>neſſes thou art righteous.</p>
+               <p>The firſt Commandment involves our fearing God, the fifth, our fearing the King: In the firſt Table, its the firſt thing which God takes care of, <hi>To fear him;</hi> In the ſecond Table, the firſt pre<g ref="char:EOLhyphen"/>cept implicite, <hi>To honor the King:</hi> While you do no homage to the perſon of your Prince, fear to offend him is far to ſeek: But ſince God commands all, and the King immediate Vice-gerent unto God: This conſidered, all are engaged to <hi>Fear God and the King.</hi>
+               </p>
+               <p>This Precept is like the waters of <hi>Trial,</hi> Numb. 5. The water tryed whe<g ref="char:EOLhyphen"/>ther that a pure Spouſe; this, who is a good Chriſtian.</p>
+               <pb n="32" facs="tcp:49438:22"/>
+               <p>He is an unſufferable ſubject, that pre<g ref="char:EOLhyphen"/>tends the fear of God, and fears not the King: He is a Demi-Chtiſtian, who vaunts how he honors the King, while the fear of God is not before his eyes.</p>
+               <p>But let us look into this Ark, and we ſhall find Manna laid up in it, good ad<g ref="char:EOLhyphen"/>vice for after ages.</p>
+               <p>That enjoyned is, <hi>Fear God:</hi> Who ſhould I fear, if not God? But what is he? and what muſt I go do? God is a Spirit uncreate, eternal, a <hi>parte poſt,</hi> ſo are we: a <hi>parte ante,</hi> ſo none but he; for God is never to have an ending, nor e<g ref="char:EOLhyphen"/>ver had a beginning: And this Eternity, <hi>à parte ante,</hi> is it that no humane reaſon can fathom: Lord, where Reaſon fails, give me faith to believe; and that it is an eternal God, Creator of Heaven and Earth, that <hi>I muſt fear.</hi>
+               </p>
+               <p>And have I not juſt cauſe to fear him, whom ſo oft I have offended? But this
+<pb n="33" facs="tcp:49438:22"/>Scripture hints not at fear of puniſh<g ref="char:EOLhyphen"/>ment; but ſuch a fear as love leads on to the keeping Gods Commandments: He hath the true fear of God in him, that fears to break the Commandments. He that ſays he fears God, and caſts his word behinde him, doth not ſo much deceive the World, as the Devil deceives him: When I ſquare my life by Gods Law, then I keep this command; a prophane perſon then, hath no fear of God in him; and if to be guided by Gods Word, picture out this party, ſuch then who pervert the Word of God to their own damnation, how dwelleth the fear of God in them?</p>
+               <p>I have caſt my eye up, let me now look down, and look at a debt I owe, as to God, ſo to the King: Religion obliges me to fear God; the Law the King: The Law Moral, as my common Parent; the Law Municipal, as my Lord and Sove<g ref="char:EOLhyphen"/>raign;
+<pb n="35" facs="tcp:49438:23"/>truth is, he is a looſe fellow will not be bound up to the Law.</p>
+               <p>The King is ſet over by God; for is it not ſaid, <hi>By me Kings do reign?</hi> Prov. 8. and ſince of his ſetting up, none but a Devil will pull them down.</p>
+               <p>Obedience and reverence is due to the Prince, and the want of each, aſſert the breach of this charge.</p>
+               <p>
+                  <hi>Let no man ſeparate aſſunder, thoſe whom God hath joyned together:</hi> Yet let me ſet a vaſt diſtance betwixt <hi>fear</hi> and <hi>fear;</hi> my Spiritual fear, I reſerve for God; a Ci<g ref="char:EOLhyphen"/>vil for my Soveraign: There is an awful reverence due to the one, as my Creator; I owe reverence to the other, for that ſet far above every ſublunary Creature.</p>
+               <p>
+                  <hi>Love is the fulfilling of Gods Law,</hi> and a filial fear leads on to the completion of the Kings commands.</p>
+               <p>As he that fears not the King, the fear of God is not in him; ſo he fears not
+<pb n="34" facs="tcp:49438:23"/>the King, who fears not to break his Laws: Know it, and for an aſſured truth, That when the King in his vertu<g ref="char:EOLhyphen"/>al Capacity is contemned, his perſonal Capacity ſtands in need of a guard.</p>
+               <p>And therefore either fear to break the Kings Law, or elſe it is to be feared, thou wilt attempt to wrong the Kings Perſon: Experience is a witneſs to this Theſis, and proclaims, <hi>How haters of the Law, have turned murtherers of their Sove<g ref="char:EOLhyphen"/>raign Lord the King:</hi> Theſe deſerve pity, for they hate reproof, while had rather dye in their ſin, then be told of their ſin.</p>
+               <p>Let us reſolve, <hi>To fear God and the King;</hi> let us ſhew our fear to him, by our fear to ſtray from his wholeſome Laws: Laws able to keep you in poſſeſ<g ref="char:EOLhyphen"/>ſion of your own, in peace one with an<g ref="char:EOLhyphen"/>other; Thus you ſhall preſerve <hi>the bond of peace, in the unity of the Spirit;</hi> live
+<pb n="36" facs="tcp:49438:24"/>as Chriſtian Brethren, and dye true loyal Subjects.</p>
+               <p>To conclude, where there is no fear of God, there is a want of the grace of God: But that you all may poſſeſs Grace and Peace; Grace which aſſures, you have Peace with God; Peace which witneſſes you are in high grace with the King: Fear God for love; and love the King, for the fear of God.</p>
+               <p>And that thy fear, may not inter<g ref="char:EOLhyphen"/>fear, thy charge is, <hi>Fear God and the King.</hi>
+               </p>
+            </div>
+            <div type="part">
+               <pb n="37" facs="tcp:49438:24"/>
+               <head>SIONS SAD COMPLAINT.</head>
+               <epigraph>
+                  <q>
+                     <bibl>
+                        <hi>Iſa. 36. part of</hi> verſe <hi>13.</hi>
+                     </bibl>
+                     <p>O Lord our God, other Lords beſides thee have ruled us.</p>
+                  </q>
+               </epigraph>
+               <p>THis is a mixt Song, ſung in the tune <hi>Lachrymae;</hi> ſung in the Cliff <hi>Gau<g ref="char:EOLhyphen"/>dete:</hi> The people of God call d to minde their Babylonian Bondage, and tears ſtand in their eyes: They are brought back from <hi>Babylon,</hi> and now with their ſad thoughts, are intermixed mirth and merrineſs.</p>
+               <p>The parallel of theſe Jews, is the Ri<g ref="char:EOLhyphen"/>ver <hi>Alphaltes,</hi> in whoſe channel run ſalt and freſh waters.</p>
+               <pb n="38" facs="tcp:49438:25"/>
+               <p> How can it but grieve, to think of their long and late Captivity? How does it ſolace, to enjoy their loſt liber<g ref="char:EOLhyphen"/>ty? that ſo long ſufferers, exhauſts tears; that ſufferers are become conquerers: <hi>For this cauſe rejoyce, and again, I ſay, Re<g ref="char:EOLhyphen"/>joyce.</hi>
+               </p>
+               <p>
+                  <hi>That other Lords have bore rule,</hi> this flats our joy; <hi>That they have, but do not,</hi> revives our drooping ſpirits.</p>
+               <p>Let us look behinde, before; at what paſt, at what preſent; at our late baniſhment, miraculous reſtorement: Theſe duplicated thoughts, extract mixt paſſions, joy and ſorrow, hope and fear. We grieve, when we remember what paſt; joy for that our griefs are paſt: <hi>Thoſe other Lords put us in fear, O Lord our God;</hi> thou puts us in good hopes.</p>
+               <p>And thus fear and hope, ſorrow and joy are here houſed: Of this I reſt aſ<g ref="char:EOLhyphen"/>ſured, while this I hear read, <hi>O Lord our
+<pb n="39" facs="tcp:49438:25"/>God, other Lords beſides thee have ruled us.</hi>
+               </p>
+               <p>Theſe Iſraelites are not grieved, that God hath puniſhed; but complains of that body of ſin, which provoked the Lord to puniſh: They quarrel not at the ſtone, they look at the thrower; and takes all well, as it comes from God, yet think meaner of themſelves, for that, <hi>O Lord our God, other Lords beſides thee have ruled them.</hi>
+               </p>
+               <p>Them and us; they led the round, we hold out the dance: Their Thral<g ref="char:EOLhyphen"/>dom was long ſince, ours ſcarce got from our doors: The Jews were Captives in a forreign Land, we made ſlaves at home; a mighty King conquered them, the off-ſcum of our Kingdom tyrannized over us; Worſhippers of Idols inſlaved the Iſraelites, Pretenders to God and God<g ref="char:EOLhyphen"/>lineſs plauged our Church and Nati<g ref="char:EOLhyphen"/>on.</p>
+               <pb n="40" facs="tcp:49438:26"/>
+               <p> When Religion muſt cloak faction, that is the height of Rebellion; and the Church then ſadly ſuffers, when her new Goſpellers abhor Idols, yet commit Sa<g ref="char:EOLhyphen"/>criledge.</p>
+               <p>What can adde more to miſery, then to have the Law of God and the King trod underſfoot: When the Kings Laws ſuffer an Eclipſe, the Kings Crown is un<g ref="char:EOLhyphen"/>der a cloud; when the Preachers of the Goſpel are turned out of their pulpits, they are not far off who mean to rob them of their benifices.</p>
+               <p>We have experienced the mercileſs mercy of theſe Egyptian Taskmaſters, who cauſed us to make our ſtint of brick, and ſeek our ſtubble; live like men, and miraculouſly get our maintenance. O if we could have over-ruled our ſelves, others ſhould not have ruled us; our ſins led us into bondage, it is of the Lords doings <hi>to redeem us.</hi>
+               </p>
+               <pb n="41" facs="tcp:49438:26"/>
+               <p> Hadſt thou not been <hi>the Lord,</hi> thou couldſt not have freed us; Hadſt thou not been <hi>our God,</hi> thou wouldſt not have done this for us.</p>
+               <p>We have experienced thy power, as <hi>the Lord,</hi> and none do come in compe<g ref="char:EOLhyphen"/>tition; we have found thy favour as <hi>our God,</hi> and it is thy ſuperlative mercy is ſolely to be <hi>magnified.</hi>
+               </p>
+               <p>Let us weep, for that we have ſinned againſt ſo good a God; let us joy in the Lord, for that relieved by the arm of the Lord our God.</p>
+               <p>Of late we were in <hi>Babylon,</hi> now in <hi>Sion;</hi> ſervants to ſlaves, now ſervants only to God and the King: praiſed be God, it is thou whom we do ſerve, though of late, <hi>O Lord our God, other Lords beſides thee have ruled us.</hi>
+               </p>
+               <p>He that takes upon him to rule with<g ref="char:EOLhyphen"/>out God, is ſure to be puniſhed by the Devil: Let me tell you, an Uſurper on
+<pb n="42" facs="tcp:49438:27"/>Earth, is a Free-holder in Hell; and though he make us ſuffers for the pre<g ref="char:EOLhyphen"/>ſent he in all likelihood is to be torment<g ref="char:EOLhyphen"/>ed to Eternity.</p>
+               <p>But what a madneſs is this, to ſtrive to rule a multitude, when thou canſt not rule one; to ſeek for ſoveraignty o<g ref="char:EOLhyphen"/>ver men, when thy uſurped power makes thee a ſlave to the Devil.</p>
+               <p>It is the moſt unſeemly ſight, for Pea<g ref="char:EOLhyphen"/>ſants to perſonate Princes; and for Princes to ſtand at the Bar, when Pea<g ref="char:EOLhyphen"/>ſants ſit on the bench. We have ſeen the time, and God be bleſſed, over-lived the time; and though long inſlaved, at length relieved.</p>
+               <p>Yet to humble us, and give God thanks, we do confeſs, to our late grief, and now joy, how, <hi>O Lord our God, other Lords beſides thee have ruled us.</hi>
+               </p>
+            </div>
+            <div type="part">
+               <head>THE ANGELS ANTHEME.</head>
+               <pb n="43" facs="tcp:49438:27"/>
+               <epigraph>
+                  <q>
+                     <bibl>
+                        <hi>Luke 2.14.</hi>
+                     </bibl>
+                     <p>Glory be to God in the higheſt, peace upon earth, goodwil to man.</p>
+                  </q>
+               </epigraph>
+               <p>THe occaſion of this Antheme, is Chriſts Birthdome; the Meſſenger, is an Angel; his Meſſage, to the Sheepherds; the news, glad tidings to all people; the Choriſters, a multitude of heavenly Souldiers; their Angelical Carrol, <hi>Glory be to God in the higheſt, peace upon earth, goodwil toward man.</hi>
+               </p>
+               <p>Chriſt is born, and Chriſts Brithdom and the Angels Antheme, divulge the
+<pb n="44" facs="tcp:49438:28"/>great love of the great God to mean man.</p>
+               <p>For God ſent his Son, from Heaven to Earth; he came from Heaven, he came to Earth; he became man, to make us all men; was born of a Virgin, O bleſſed Birthdom, whoſe birth gives life to many millions.</p>
+               <p>
+                  <hi>O Divine condeſcention!</hi> Our Chriſt came to live with men, that we men might live with God: He aſſmes our nature, to make peace betwixt the Crea<g ref="char:EOLhyphen"/>tor and the Creature; nay more, he took upon him life natural, that ſo he might free us all from death eternal: He lived to dye, that we might not dye, but live.</p>
+               <p>His Birth is the forerunner of all our benefits; and therefore in honor of that Day, Chriſts Birthday, Angels ſing a <hi>Gloria Patri,</hi> they ſing the Antheme in three parts;</p>
+               <list>
+                  <pb n="45" facs="tcp:49438:28"/>
+                  <item>In <hi>Alto.</hi> In Alto, <hi>glory be to God in the higheſt.</hi>
+                  </item>
+                  <item>In <hi>Baſſo.</hi> In Baſſo, <hi>Peace upon earth.</hi>
+                  </item>
+                  <item>In <hi>Medio.</hi> In Medio, <hi>Goodwil to<g ref="char:EOLhyphen"/>wards men.</hi>
+                  </item>
+               </list>
+               <p>The Singers are the Angels; the Dit<g ref="char:EOLhyphen"/>ty, <hi>Glory, Peace, Goodwil;</hi> the Tune, in <hi>Alto, Baſſo, Medio;</hi> behold, <hi>Glory aſcends on high, Peace poſſeſſes the earth, Goodwil purſues each ſoul:</hi> And thus Heaven, Earth, and Man, bear all parts in this Song; God in Heaven, Man on Earth, and the Earth from whence Man came; each do here bear their part, ap<g ref="char:EOLhyphen"/>parent, while <hi>glory is given to God, Peace to the Earth, goodwil to Man.</hi>
+               </p>
+               <p>What ſoul is not raviſhed with this ſacred Ditty, ſung by Angels, ſung on Chriſts Brithday, ſung for joy, <hi>That our Redemption drew nigh.</hi>
+               </p>
+               <pb n="46" facs="tcp:49438:29"/>
+               <p> A Song to be ſung in Triple time, which as Muſicians know, allows of two Minnims down, and one onely up: And is not here <hi>one</hi> up, <hi>Glory be to God on high;</hi> And two down, <hi>Peace be upon earth,</hi> And two down, <hi>Good-will towards man.</hi>
+               </p>
+               <p>Theſe are Heavens Waits, and be<g ref="char:EOLhyphen"/>ing come to the doors of us Mortals, they double their ſtrokes; and having honored God, God takes it for no diſhonor, in a redoubled note, for them to ex<g ref="char:EOLhyphen"/>preſs their love to us: <hi>Thus ſhall be done to them whom the King means to honor.</hi>
+               </p>
+               <p>Well, let Angels be our Samplers: and let us learn by them to us, to give back again to God, praiſe and glory; praiſe, for our Creation; glory, for our Redemption: Let God have the glory for making our peace with him, yea, <hi>glory to God in the higheſt,</hi> for affording us peace one with another, peace within
+<pb n="47" facs="tcp:49438:29"/>ourſelves; and for that hope we have <hi>of that Peace which paſſeth all underſtanding.</hi>
+               </p>
+               <p>And as thus we give glory to God for this peace proclaimed; <hi>ſo glory be to God for his goodwil to man;</hi> we may poſſeſs our ſouls in peace, for we have the good will of God; we had enſlaved our ſelves to ſin and Satan: It is Gods good will to free us from Hell, and the Devil.</p>
+               <p>The Prince of darkneſs is rooted, and our peace is purchaſed; not onely peace for us, who are earth; but the goodwil of God to all mankinde on earth.</p>
+               <p>But though the Greek Fathers inter<g ref="char:EOLhyphen"/>pret theſe words, of Gods goodwil to man; yet the Latine Fathers thus tran<g ref="char:EOLhyphen"/>ſlate this Antheme, <hi>Peace be upon earth to men of goodwil.</hi>
+               </p>
+               <p>As if men could never be at peace with God the Father, whileſt he bears ill will to his neighbour: He is quite out of tune, who is not in charity; neither will
+<pb n="48" facs="tcp:49438:30"/>God afford him peace, that affords not his neighbour love: As <hi>love is the ful<g ref="char:EOLhyphen"/>filling of the Law,</hi> ſo the large and the long, and the brief, and the ſemi-brief in this ſacred Sonnet.</p>
+               <p>An ill will d man is a wicked man, and while he lives at odds with men, can ne<g ref="char:EOLhyphen"/>ver have hopes of peace with God.</p>
+               <p>But the twofold Expoſition of the Greeks and Latines; the one expound<g ref="char:EOLhyphen"/>ing this Antheme of <hi>Gods goodwill to us;</hi> the other of ours, <hi>to God and all man<g ref="char:EOLhyphen"/>kinde:</hi> This proclaims, How Heaven and Earth are agreed.</p>
+               <p>God loves us, and we love him, and we all one another: He us, before we were; we him in time: He loved us, before we loved him; we love him after his love to us hath mollified our ſtony hearts.</p>
+               <p>But how comes this good agreement? none were more at odds then God and
+<pb n="49" facs="tcp:49438:30"/>man. O! the reconcilement is made by the Birth of Chriſt! a Birth predicted by the Sibbels, foretold by the Prophets, and confeſſed by all Chriſtians.</p>
+               <p>Chriſt Harbinger came before, our Saviour came quickly afeter: When nigh at hand, the cry went, <hi>Advenit, advenit, advenit, advenit;</hi> He comes, he comes, he comes; he comes to us <hi>in utero Virginis,</hi> in the womb of a Virgin: O rate generation! <hi>Adam</hi> was neigher of man nor woman; <hi>Eve</hi> from a man, but no woman: Our Saviour is born of a woman, begot of no man; he is born man, and <hi>Mary</hi> made the Mother of God: For <hi>the Word was made fleſh,</hi> Joh. 1.14. and all this, that we who are more fleſh then Spirit, might by the Spirit of Chriſt, become leſs carnal, and more ſpi<g ref="char:EOLhyphen"/>ritual.</p>
+               <p>And now ſince Chriſt is come to ſave us, us his enemies, ſuch enemies as made a
+<pb n="42" facs="tcp:49438:31"/>combination with the World, Fleſh, and Devil, againſt the Father, Son, and Holy Ghoſt; nay more, ſince this Son of God, <hi>ſic exananivit ſemetipſum,</hi> hath ſo humbled himſelt, as to be born of a Virgin, that we might be born again, and live; and with God, and in Heaven, and for ever; doubtleſs it is high time, and opportune time, at this ſet time; for no leſs then <hi>Angels,</hi> to turn Coriſters, and to ſay and ſing this ſacred Song, <hi>Glory be to God on high, Peace upon Earth, Goodwil towards man.</hi>
+               </p>
+            </div>
+            <div type="part">
+               <pb n="43" facs="tcp:49438:31"/>
+               <head>A LESSON FOR Souldiers.</head>
+               <epigraph>
+                  <q>
+                     <bibl>
+                        <hi>Luke 3.14.</hi>
+                     </bibl>
+                     <p>The Souldiers likewiſe demanded of him, ſaying, And what ſhall we do? and he ſaid unto them, Do violence to man, ac<g ref="char:EOLhyphen"/>cuſe no man falſly, and be content with your wages.</p>
+                  </q>
+               </epigraph>
+               <p>THeſe words are occaſioned upon a Sermon newly Preached: The Preacher is <hi>John</hi> the Baptiſt: His Hearers are of divers diſpoſitions; the
+<pb n="52" facs="tcp:49438:32"/>effect, they are all aſtoniſhed: The Bap<g ref="char:EOLhyphen"/>tiſt threatens death, the people enquire, how to ſave life: No ſooner ſaith <hi>John, The ax is laid to the root of the tree;</hi> but as ſoon the people fear to be made fuel for the fire.</p>
+               <p>Lo, after a Law-Sermon, follows a Goſpel-Demand: We will never ſeek after Chriſt, till <hi>Moſes</hi> hath found us out; It is <hi>Moſes</hi> muſt lanch the ſore, be<g ref="char:EOLhyphen"/>fore Chriſt will cure the wound; let me welcome then a <hi>Boanerges,</hi> as much as a <hi>Barnabas;</hi> and by this demand reſt en<g ref="char:EOLhyphen"/>ſured, How Law-preaching, makes me ſenſible of my ſins.</p>
+               <p>Though the love of God, and merits of Chriſt ſave; yet the juſtice of God, and judgement preached, fits me for a Saviour.</p>
+               <p>It is true, how Chriſt by his blood hath purchaſed for us a Kingdom; it is as true, how the Law is School-maſter,
+<pb n="53" facs="tcp:49438:32"/>and leads us unto Chriſt: Till I meet with this guide, I ſhall neither have eye to ſee with, nor tongue to enquire for a Saviour: After the Law be home ap<g ref="char:EOLhyphen"/>plied, and powerfully preached, preſent<g ref="char:EOLhyphen"/>ly the whole man ſeeks every where for a Deliverer: Such a Sermon was <hi>Peters, Acts</hi> 2. and then in <hi>verſ.</hi> 37. they cry, <hi>What ſhall we do?</hi> Such a Sermon is this of our Baptiſts, and in three com<g ref="char:EOLhyphen"/>panies the cry goes, <hi>Aud what ſhall we do?</hi>
+               </p>
+               <p>O! when the Law preached, makes me ſenſible of my ſore, then I ſeek for a plai<g ref="char:EOLhyphen"/>ſter! He that preaches to the people, God is nothing elſe but all love, ſhall be ſure in the end to meet with his juſtice: Sugar plumbs are more deſtructive to the ſto<g ref="char:EOLhyphen"/>mach then ſharp ſauce; and a diſcreet Cook will ſend up to the table ſalt, to relliſh the freſh diſhes.</p>
+               <p>Such a Caterer is this of our Saviours,
+<pb n="46" facs="tcp:49438:33"/>he ſends up meat and muſtard; and while threatens the torments of Hell-fire, tells the people how to eſcape the fire of Hell; generally in a Sermon, particularly in a Catechiſm.</p>
+               <p>And that I note is, the people De<g ref="char:EOLhyphen"/>mand, and the Baptiſt Anſwers: Lo the willingueſs of the one, and the readi<g ref="char:EOLhyphen"/>neſs of the other; the Souldiers are a<g ref="char:EOLhyphen"/>larm'd out of ſin, and now they are in march for <hi>Sion;</hi> they are awaked out of the bed of carnal ſecurity, and they cry for the dug of Divine Doctrine.</p>
+               <p>That is a gracious forenoon Sermon, produces ſuch an afternoon Catechiſm; it aſſures how the Catechuminiſts loath not Manna, but long for the ſincere milk of the Word.</p>
+               <p>But that again I call to minde is, how the Souldiers propound, and the Preach<g ref="char:EOLhyphen"/>er reſolves: Thus like new hatch birds, they gape, till the old one diſgorge into them.</p>
+               <pb n="47" facs="tcp:49438:33"/>
+               <p> 
+                  <hi>They cry,</hi> ſays the Text, and is it not high time for them to cry, who have made ſo many, ſo long to cry?</p>
+               <p>Well, when God in a Sermon ſpeaks home to the Conſcience, it will make thee ask, ere thou be asked, an ſay, <hi>Maſter, what ſhall we do?</hi>
+               </p>
+               <p>This was the cry of the people, of the Publicans; and now that they have be<g ref="char:EOLhyphen"/>gun to cry, the Souldiers cannot hold their tongues; <hi>Good example does much prevail with rude and robuſt natures:</hi> As the fierce beaſt by long waking, is made tame; ſo our ſavage diſpoſitions are made pliable by a long and loud peal of Gods judgements, ſounding in our ears.</p>
+               <p>But I much marvel not, that theſe Souldiers are thus terrified, and demand, <hi>What muſt we do?</hi> They had hewed down ſo many with their ſwords, that now afraid to be cut in pieces with the ax, Gods judgements.</p>
+               <pb n="56" facs="tcp:49438:34"/>
+               <p> 
+                  <hi>When a guilty Conſcence hath a weep<g ref="char:EOLhyphen"/>ing eye, and a crying tongue for ſalvation, though his ſword hath been di<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>d with the blood of innocents, yet there is hopes, how his ſoul may be rinſed clean from ſin, with the blood of our lord Jeſus.</hi>
+               </p>
+               <p>And thus I proceed from the De<g ref="char:EOLhyphen"/>mand, to the Determination, from the <hi>quid faciemus, what ſhall we do?</hi> to the <hi>quid faciendum; Do violence to no man, accuſe no man falſly, and be content with your wages.</hi>
+               </p>
+               <p>Here are ſhort Leſſons, but long a taking out; little ſaid, much implyed. In thre lines, Souldiers are taught their whole duty to man: We will give them three years to take out their Leſſon, and to do what here they are willed to do: But this <hi>Tripertite Maudat,</hi> ſeems to in<g ref="char:EOLhyphen"/>fer the Souldiers propenſeneſs to the breach of this advice; as alſo, That he is a right bred Souldier, who ſquares his life by this Law: Model me out ſuch a
+<pb n="57" facs="tcp:49438:34"/>company, and in a fight they will not fear to dye.</p>
+               <p>When my life is led according to Gods golden Rule, then death is as welcome to me as life.</p>
+               <p>I will in ſpecial take notice, what is the will of God in this time of my earth<g ref="char:EOLhyphen"/>ly Pilgrimage, leſt my farewel be far worſe then my firſt beginning.</p>
+               <p>But come, when we carry righteouſly towards man, it is probable we will be religous towards God.</p>
+               <p>And it is at this end of Divine Di<g ref="char:EOLhyphen"/>rection, that our Baptiſt ſtarts his diſ<g ref="char:EOLhyphen"/>courſe,
+<list>
+                     <item>Viz. <hi>Do violence to no man.</hi>
+                     </item>
+                     <item>Viz. <hi>Accuſe no man falſly.</hi>
+                     </item>
+                     <item>Viz. <hi>Be content with your wages.</hi>
+                     </item>
+                  </list>
+               </p>
+               <p>By this it ſeems, Gods Word gives no warrant to him who hath the longeſt ſword, to take the greateſt plunder; nor yet for him who hath the longeſt wea<g ref="char:EOLhyphen"/>pon,
+<pb n="58" facs="tcp:49438:35"/>to have too long a tongue; nor yet for him who hath marched all day, to turn Mntineer next morning.</p>
+               <p>A right bred Souldier will reſt con<g ref="char:EOLhyphen"/>tent with that pay which is allotted for him; wil not forge a lye to hurt his neigh<g ref="char:EOLhyphen"/>bour; nor yet when the drawn ſword is in his hand, will harm the innocent.</p>
+               <p>Here are three Leſſons for Souldiers; and the firſt, manacles their hands; the ſecond, their tongues; the third, ſtaves them off other mens goods, while gives them no more but what they work for; and to ſpeak no more but truth, he is a gallant Souldier, whoſe hand is tied to good behaviour, and <hi>Doth violence to no man;</hi> who can keep his tongue within his teeth, and <hi>Accuſe no man falſly;</hi> who quiets himſelf with his means, and is <hi>Content with his wages.</hi>
+               </p>
+               <p>Your being <hi>Content with your wages,</hi> aſſerts, how you are no Mutineers, and
+<pb n="59" facs="tcp:49438:35"/>gains you the love of your Leaders.</p>
+               <p>Your <hi>Accuſing no man falſly,</hi> aſſures how you have the fear of God, and keep his ninth Commandment.</p>
+               <p>Your withdrawing your ſelves from <hi>Doing violence to any man,</hi> ſhews an he<g ref="char:EOLhyphen"/>roick ſpirit; and ſuch an one, whoſe re<g ref="char:EOLhyphen"/>ligious will, over-rules your Warlike care.</p>
+               <p>Such an Army of Souldiers, make an Hoſt of Saints; and if they thus lead a life of Grace, the Lord of Hoſts will lead them to a life of glory: Their re<g ref="char:EOLhyphen"/>ward is in Heaven, and they are ſure of it; the Lord never fails them that fear him, but ſo ſoon as the Souldiers ſcab<g ref="char:EOLhyphen"/>bard falls to the ground, the blade is laid up with the Lord: Though thou be at a loſs for a time, thy ſoul will be ſafe in <hi>Abrahams</hi> boſom.</p>
+               <p>It is better then, to live well, then fight: well; eſpecially for Souldiers,
+<pb n="60" facs="tcp:49438:36"/>whoſe lives are ſo very oft in dan<g ref="char:EOLhyphen"/>ger.</p>
+               <p>Let this threefold Admonition fore<g ref="char:EOLhyphen"/>arm them, and warn us to lead a good life, if ever we mean to enjoy a life ever<g ref="char:EOLhyphen"/>laſting.</p>
+            </div>
+            <div type="part">
+               <head>Gods Love, MANS LIFE.</head>
+               <epigraph>
+                  <q>
+                     <bibl>
+                        <hi>John 3.16.</hi>
+                     </bibl>
+                     <p>God ſo loved the World, that be, &amp;c.</p>
+                  </q>
+               </epigraph>
+               <p>
+                  <hi>LOrd inſpire me with thy Spirit, that my tongue may ſhew forth thy praiſe, whileſt my heart rejoyceth in God my Saviour:</hi> And ſince it is not in the heart of man, to ſathom the depth of thy
+<pb n="61" facs="tcp:49438:36"/>love, O give me leave to admire thy love to him, who deſerves the utmoſt of thy vengeance: Hadſt not thou been a God whoſe mercy is not to be meaſured, man had never taſted of ſo much mercy in the midſt of his Miſery.</p>
+               <p>But thus to love us, when we had for<g ref="char:EOLhyphen"/>ſaken our firſt-love, <hi>This is of the Lords doings, and it is marvellous in our eyes.</hi>
+               </p>
+               <p>Let me lay the guilt of Humane Na<g ref="char:EOLhyphen"/>ture wide ope to the World, then the God of Nature will be magnified, and the Attribute of his Mercy mightily ad<g ref="char:EOLhyphen"/>mired. Was not man made little inferi<g ref="char:EOLhyphen"/>or to the Angels, <hi>The prime piece of Gods Workmanſhip;</hi> in the likeneſs of God did God make man: <hi>And could a Creature expect an higher favour from his Creator?</hi> Was he not ſeated in Paradiſe, <hi>an Hea<g ref="char:EOLhyphen"/>ven upon Earth?</hi> Had he not given un<g ref="char:EOLhyphen"/>to him, Dominion over all the whole Creation? <hi>And might not his Lord<g ref="char:EOLhyphen"/>ſhip
+<pb n="62" facs="tcp:49438:37"/>have Lorded it over all the Crea<g ref="char:EOLhyphen"/>tures.</hi>
+               </p>
+               <p>He who had all to obey him on Earth, was tied onely to obey that one God in Heaven; and yet he aſpires to be as <hi>God:</hi> A ſin ſo tranſcendent, to turn a Traytor to his Liege-Lord, as no mouth dare juſtifie him, no Angel plead for him; for in committing this one ſin, he ſtood guilty of <hi>Ingratitude</hi> to his Liege-Lord; of <hi>Covetouſneſs,</hi> for aſpired to have the Regiment of Angels; of <hi>Rebellion,</hi> for rebelled againſt God and his King.</p>
+               <p>As Divines conceive, in committing this one ſin, <hi>Adam</hi> coagulated all ſins, not making <hi>his Perſon onely,</hi> but <hi>Humane Nature acceſſary:</hi> And thus he diſho<g ref="char:EOLhyphen"/>nored God, deſtroyed himſelf, and cor<g ref="char:EOLhyphen"/>rupted all mankinde.</p>
+               <p>And yet <hi>rebus ſic ſtantibus,</hi> inſtead of puniſhing, God pities; inſtead of con<g ref="char:EOLhyphen"/>founding, God comforts.</p>
+               <pb n="63" facs="tcp:49438:37"/>
+               <p> Death was threarned, if <hi>Adam</hi> ſin<g ref="char:EOLhyphen"/>ned; life is promiſed, after he had ſin<g ref="char:EOLhyphen"/>ned; not for any foreſeen good in man, but becauſe God would be ſo good to man.</p>
+               <p>Luſt inthrald us, Love ſet us at liber<g ref="char:EOLhyphen"/>ty; it was the love of God; and there<g ref="char:EOLhyphen"/>fore of the beſt ſort: He <hi>ſo loved,</hi> as no parallel can equal: He <hi>loved the World,</hi> a large extent; and gave his Son, not a ſer<g ref="char:EOLhyphen"/>vant, his onely Son; its much to have but one, and part with that one: But why parts God and his Son? That ſome of the ſons of men might come to God, <hi>even as many as believe.</hi> All then are not at a loſs, <hi>as many ſhall be ſaved as lelieve; Salvation then is not of works, but faith:</hi> And this <hi>Faith myſt be in him,</hi> not in <hi>the Jewiſh Talmud, Turkiſh Al<g ref="char:EOLhyphen"/>caron,</hi> nor <hi>Popes Pardons,</hi> but <hi>a Belief in Chriſt Jeſus;</hi> a belief, <hi>That as</hi> Adam <hi>made us guilty of death, ſo that by the
+<pb n="64" facs="tcp:49438:38"/>death of Chriſt, me ſhall be freed from the ſecond death, and have life; here a life of grace, bereafter a life of glory; here the Inchoation; after the Conſummation; now we live to dye; through Chriſt we dye to live, and have a life everlaſting.</hi>
+               </p>
+               <p>What could <hi>Adam</hi> and all we have expected leſs? what could he and we have more deſired? we were doomed to dye, reprived to live; by the Judge of Heaven, ſentenced to an Eternity of tor<g ref="char:EOLhyphen"/>ments; by the ſame Judge, our ſen<g ref="char:EOLhyphen"/>tence is repealed, to a fair poſſibility of ſalvation: And thus for us to ſin againſt God, and God thus to put it up, and not onely not to puniſh with death, but to provide for us <hi>life, life everlaſting:</hi> This may put Humane Wit to a ſtand.</p>
+               <p>Was ever Love like this! ſays the Scripture, <hi>Can a Woman forget her own Childe?</hi> The Quaere implies a poſſibility, but a rarity: Such forgetfulneſs may be
+<pb n="65" facs="tcp:49438:38"/>in us mortals, there in none at all in our Maker: Being arch enemies to him, he befriends us, and parts with his own Son, to make us his Sons and Daughters; <hi>yea heirs, heirs of God, and joynt heirs with Chriſt Jeſus:</hi> And thus he gives gold for droſs, and all to make us who are droſs, to paſs for currant coyn in his Kingdom.</p>
+               <p>Saith <hi>David</hi> to <hi>Jonathan, Thy love to me was wonderful, paſſing the love of women:</hi> But behold and wonder, here is love ſurpaſſing mans expreſſion, <hi>The love of God to man!</hi> ſo to love him, as to re<g ref="char:EOLhyphen"/>deem him, to ſend his Son to dye, to ſave man from death, and to require no more, but to believe; to believe, <hi>His own Son hath paid the ranſome with his own life, to purchaſe us a life Everlaſt<g ref="char:EOLhyphen"/>ing.</hi>
+               </p>
+               <p>O let my life anſwer my belief! We do not believe in Chriſt, if we lead not
+<pb n="66" facs="tcp:49438:39"/>the life of grace: Though faith onely juſtifies, alone faith never juſtifies: If I do good works, to teſtifie my Sanctifi<g ref="char:EOLhyphen"/>cation before men, then my belief in Chriſt, will enſure my Juſtification <hi>be<g ref="char:EOLhyphen"/>fore God:</hi> As my faith muſt juſtifie me, ſo my works muſt juſtifie my faith: No man believes in Chriſt, that lives in ſin. I ſay not, who is ſometimes gull'd, but every day miſled, and willingly; the ef<g ref="char:EOLhyphen"/>fect of faith is an holy life: As light at<g ref="char:EOLhyphen"/>tends on the Sun, ſo good works on Faith; he that lives well, cannot believe ill: Thy life enſures me of thy belief; thy belief, of the love of God, yea, and that thou art one of thoſe of whom it is ſaid, <hi>God ſo loved the World, that he, &amp;c.</hi>
+               </p>
+            </div>
+            <div type="part">
+               <pb n="67" facs="tcp:49438:39"/>
+               <head>
+                  <hi>GODS PRESENCE,</hi> Patiences Protector.</head>
+               <epigraph>
+                  <q>
+                     <bibl>
+                        <hi>Phil. 4. part of</hi> verſe <hi>5.</hi>
+                     </bibl>
+                     <p>The Lord is at hand.</p>
+                  </q>
+               </epigraph>
+               <p>THeſe words were writ to the <hi>Phi<g ref="char:EOLhyphen"/>lippians,</hi> occaſioned, for that ſur<g ref="char:EOLhyphen"/>rounded with ſorrow, and overcaſt with care: They profeſs Chriſt, and for it, ſcorn'd by the Jews; ſcoft at by the Gentiles.</p>
+               <p>Now leſt deſpair cruſh them, or im<g ref="char:EOLhyphen"/>patience provoke them, this <hi>Memento</hi> is given them, <hi>The Lord is at hand.</hi>
+               </p>
+               <p>One able to ſupport; for <hi>A Lord:</hi>
+                  <pb n="68" facs="tcp:49438:40"/>No mean one, for <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>
+                  <hi>The Lord;</hi> nor is he far off, for ſaith <hi>S. Paul, At hand;</hi> on thy right hand, to comfort; not on thy left hand, to ſcourge.</p>
+               <p>Our God is in Heaven, and our God is here; Reſidentially above, Potenti<g ref="char:EOLhyphen"/>ally below: <hi>There</hi> is his Palace, and <hi>here</hi> he perambulates; and as thou canſt not flie from thy ſhade, no more from God: The Sun is above, and vertually with us; and God is in Heaven, yet always with men on earth.</p>
+               <p>He is within ſight, <hi>Nam Deus videt, God ſees</hi> within cry, for ſaith he, <hi>Call on me in trouble, and I will hear thee:</hi> He houſes in thy houſe, <hi>Know ye not your bodies are the houſes of the Holy Ghoſt.</hi>
+               </p>
+               <p>A Cordial, and may comfort Gods childe; a Corroſive, and cuts to the quick the ſons of <hi>Belial.</hi>
+               </p>
+               <p>God ſees thy afflictions, and can eaſe thee: He knoweth the impetuous wan<g ref="char:EOLhyphen"/>tonneſs
+<pb n="69" facs="tcp:49438:40"/>of the wicked; and will puniſh him.</p>
+               <p>But why ſhould I lay on load, when God bids, <hi>Hold off Hands?</hi>
+               </p>
+               <p>This Scripture is not alledged, to terrifie evil livers, but to ſupport ſuch as are ſurround with ſorrow.</p>
+               <p>Thou liveſt well, and fareſt ill, ſerveſt God, and art miſuſed by men. It is pity, that for well-doing, thou ſhouldſt be ill intreated.</p>
+               <p>This is the courſe of the World, to ſet light by them; who ſet an high eſti<g ref="char:EOLhyphen"/>mate on Gods ſervice.</p>
+               <p>The Devil and the ſons of <hi>Belial</hi> both joyn, to disjoynt a Saint; the wicked with revilings, the Devil with tempta<g ref="char:EOLhyphen"/>tions.</p>
+               <p>The nigher I come to God, the cloſer ſiege the Devil lays to my ſoul: A daily ſinner he ſeldom aſſaults.</p>
+               <p>No, he that is running faſt on to
+<pb n="70" facs="tcp:49438:41"/>Hell, needs not be called on to mend his pace; but he that is going out of <hi>Sodom,</hi> ſhall finde many a ſtop ere he get to <hi>Zoar.</hi>
+               </p>
+               <p>The approach of Gods Spirit cloſe up to my heart, mudles the unclean ſpi<g ref="char:EOLhyphen"/>rit, who vows a return, not onely to the houſe, which is empty, ſwept, and garniſhed empty of all Piety, ſwept with the ſtump worn broom Formality, and garniſhed with the gilt of Hypo<g ref="char:EOLhyphen"/>criſie; but he rages to turn into the <hi>Tem<g ref="char:EOLhyphen"/>ple of God, The heart of the Elect:</hi> There he hopes for rich plunder, <hi>Abrahams</hi> Jewels, <hi>Jonathans</hi> Purple, and <hi>Judiths</hi> Bravery, to ſurprize a Saints ſpiritual graces.</p>
+               <p>This is that King of <hi>Aſſyria,</hi> that gives charge to his two and thirty Captains, to ſight with none but the King of <hi>Iſrael,</hi> the ſoul of a Saint.</p>
+               <p>O! the fall of ſuch a ſtar, he knows,
+<pb n="71" facs="tcp:49438:41"/>would darken Heaven: The Apoſtacy of one Diſciple pleaſes him more, then the debauchedneſs of many Miſcreants.</p>
+               <p>And now it is, that the ſiege is laid a<g ref="char:EOLhyphen"/>gainſt the precious ſould of a ſanctified Saint; his out-work is battered with per<g ref="char:EOLhyphen"/>ſecution, his in-work with temptation.</p>
+               <p>The Alarm is taken, and it holds on, all the Summer of our youth, and Win<g ref="char:EOLhyphen"/>ter of our old age; it laſts from the cradle, to the crutch; from our birth, till our Death.</p>
+               <p>To have ſuch an enemy as the De<g ref="char:EOLhyphen"/>vil, and ſo long a ſiege as all our lives, and ſuch fierce Aſſailants, as ſeek the ruine of body and ſoul, and for ever: Were not this able to cruſh in pieces Pa<g ref="char:EOLhyphen"/>tience. But O <hi>Jobs</hi> Wife, be thou gone! I never knew her prove a good wiſe, who gave her husband evil counſel. I hate here advice, to <hi>Curſe God;</hi> I like <hi>Jobs</hi> reſolve, <hi>Yea, though the Lord kill me, yet will I truſt in him.</hi>
+               </p>
+               <pb n="72" facs="tcp:49438:42"/>
+               <p> 
+                  <hi>Job</hi> knew that the Devil was buſie about him, yet that God was not far from him.</p>
+               <p>This is it will make us take our dough upon our ſhoulders, and march though a Wilderneſs of ſtinging Serpents.</p>
+               <p>We have a cloud behinde, to ſhade us from our enemies; a pillar of fire be<g ref="char:EOLhyphen"/>fore, to guide on to the promiſed land of our poſſeſſion: The Lord is he, who never leaves us, nor forſakes us.</p>
+               <p>The preſence of God, is the prime preſerver of Patience in afflictions: Let me ſtand it out, my Soveraign Lord is within ſight: Let me not faint, ſince ſuch a ſecond is preſent: <hi>The Lord is preſent;</hi> What could I do if he were not here? What can I not, now he is at hand? Not onely ſight, but overcome, <hi>Become more then Conquerer;</hi> yea, conquer the Devil, that meant to make of me a con<g ref="char:EOLhyphen"/>queſt; yea Conquer my ſelf, whom
+<pb n="73" facs="tcp:49438:42"/>the DEVIL could not Conquer.</p>
+               <p>I am never a freeman, untill a Bond<g ref="char:EOLhyphen"/>man; the more I inſlave my fleſh, <hi>in which dwells no good thing; ne parum, ne minimum quidem,</hi> no not the leaſt good; the more my minde, my ſpirit and heart are at liberty now to bring this to paſs, <hi>hic labor, hoc opus.</hi>
+               </p>
+               <p>Our hands are weak, and cannot do this work, weakned by <hi>Adams</hi> ſin, by our own actual ſins: How can a weak man ſtand out againſt a ſubtile Serpent? How can we hold out the fight ſixty years, that cannot work ſixty hours?</p>
+               <p>Can frail man undergo a life-laſting Temptation? Is not the thought of this able to turn his Patience into Paſſion, to be ever ſet on, day and night waking, ſleeping, without ceaſing or intermit<g ref="char:EOLhyphen"/>ting.</p>
+               <p>It is now that the power of God be<g ref="char:EOLhyphen"/>gins to manifeſt it ſelf: I am <hi>here,</hi> and
+<pb n="74" facs="tcp:49438:43"/>
+                  <hi>here</hi> is God; I can do nothing without him, he will do nothing without me: He works in me, I work by the help of him; I faint, he refreſhes, <hi>The light of his countenance puts life into me.</hi>
+               </p>
+               <p>But O! the miſts of homebred Igno<g ref="char:EOLhyphen"/>rance, and helliſh Temptations, inter<g ref="char:EOLhyphen"/>poſe betwixt me and my God! and now with <hi>Mary,</hi> I am ready to cry out, <hi>They have taken away my Lord;</hi> and in de<g ref="char:EOLhyphen"/>priving me of the preſence of God, they rob me of my perſeverance and patience in afflictions. This is my fear, yet while I fear the worſt, I may chance fare the beſt.</p>
+               <p>I will ſooner approve of a filial fear, then a foward preſumption: Faith may be overcaſt, never finally eclipſed; or if eclipſed, it is but for a time: A ſhort time, and the Sun appears, even <hi>he who made the Sun, and the Moon, and the Stars, God bleſſed for ever, amen.</hi> Let
+<pb n="75" facs="tcp:49438:43"/>us by looking up to God, as <hi>Iſrael</hi> to the Brazen Serpent, cure our <hi>Soul-ſick</hi> pati<g ref="char:EOLhyphen"/>ence: God he is the Regiſter, and Re<g ref="char:EOLhyphen"/>cords all our ſufferings: He carries the ſcales, and weighs out our juſt allowance; no more can be laid upon us, then he likes: no more will he let be laid upon us then we can bear: He is night us, and none can wrong us: He is with us, the General with his Souldiers, the Sove<g ref="char:EOLhyphen"/>raign with his Subjects, the Phiſitian of Souls, with his <hi>Soul-ſick</hi> Patients: Let us then have patience, yea, <hi>Let your patient minde be known, for God is at hand.</hi>
+               </p>
+            </div>
+            <div type="part">
+               <pb n="76" facs="tcp:49438:44"/>
+               <head>WHERE UNITY Amity.</head>
+               <epigraph>
+                  <q>
+                     <bibl>
+                        <hi>I Pet. 3. part of</hi> verſe <hi>3.</hi>
+                     </bibl>
+                     <p>Finally, be ye all of one minde, love as brethren.</p>
+                  </q>
+               </epigraph>
+               <p>ST. <hi>Peter</hi> ſhews a ſcattered Church, the beſt way how to avoid trouble. Theſe new Converts in <hi>Pontus, Ga<g ref="char:EOLhyphen"/>latia, Capadocia, Aſia</hi> and <hi>Bythenia,</hi> have been of ſeveral judgements; but diver<g ref="char:EOLhyphen"/>ſity of Opinions, breeds diſcord in Pro<g ref="char:EOLhyphen"/>feſſors:
+<pb n="77" facs="tcp:49438:44"/>And therefore to avoid Inſur<g ref="char:EOLhyphen"/>rection againſt the State, and Schiſm in the Church, the advice is, <hi>Be ye all of one minde.</hi>
+               </p>
+               <p>The Goſpel makes <hi>ex ſua Natura,</hi> union, never diviſion; neither is it pro<g ref="char:EOLhyphen"/>bable, that he will make a <hi>good Chriſtian,</hi> that diſſevers from the <hi>Congregation.</hi>
+               </p>
+               <p>This Divine <hi>Exhortation</hi> gives no li<g ref="char:EOLhyphen"/>cenſe for <hi>Liberty of Conſcience,</hi> leſt <hi>Li<g ref="char:EOLhyphen"/>berty of Conſcience</hi> become <hi>Licentious Li<g ref="char:EOLhyphen"/>bertiniſm.</hi>
+               </p>
+               <p>What the Church decrees, that Edict muſt be <hi>obeyed;</hi> for be ſure, <hi>A Schiſma<g ref="char:EOLhyphen"/>tick in Diſcipline, when opportunity ſerves, will be a Rebel againſt his Soveraign:</hi> A contemner of Church Government, hath always been found a cloſe ſpurner againſt <hi>Kingly Power.</hi>
+               </p>
+               <p>And therefore <hi>to preſerve obedience to the Prince</hi> care muſt be taken, <hi>That ſubmiſſion be made to the Churches Ca<g ref="char:EOLhyphen"/>nons:</hi>
+                  <pb n="78" facs="tcp:49438:45"/>Which ſacred work ſpeedier to effect, the charge is, <hi>Be ye all of one minde.</hi>
+               </p>
+               <p>This <hi>Injunction</hi> is given by St. <hi>Peter,</hi> and the greater the Apoſtle, of more weight are his words: It is directed to <hi>Goſpel-Profeſſors,</hi> to ſhew, commonly where grace, there will be peace: It is not to one, but all; <hi>Be ye all.</hi>
+               </p>
+               <p>The Myſteries and Mandats of Chriſt Jeſus, muſt be diſpenſed <hi>non ad unum, ſed unitatem:</hi> But what is this that is given in charge, <hi>Be of one minde.</hi>
+               </p>
+               <p>A needful Mandat; for thoſe mens hands can never be bound to good be<g ref="char:EOLhyphen"/>haviour, whoſe judgements do differ: Know it, <hi>That new broached Schiſms and Hereſies in the Church, are Cankerworms to the Crown; and where the Power of the Keys</hi> in ſpiritualibus <hi>is not coercive, the impudence of Apoſtates is intolerable:</hi> When ſo many men, ſo many mindes;
+<pb n="79" facs="tcp:49438:45"/>as many mindes, ſo many miſchiefs: The ignorance of ſome, and impudence of others, makes bold Controllers; <hi>But a rod,</hi> ſaith <hi>Solomon, is made for the back of the fool;</hi> and a whip (Church-cenſure) made of ſmall cords, muſt ſcourge the incorrigible out of the Temple.</p>
+               <p>But come, we will not put them out of the Church, who pulled us out of our Pulpits; whats paſt is forgiven, ſo that <hi>finally ye all be of one minde.</hi>
+               </p>
+               <p>We ſay, <hi>Better late thrive, then never;</hi> and, <hi>He runs far, that never turns:</hi> We have hopes of you, while you have life: What was amiſs, let it be amend<g ref="char:EOLhyphen"/>ed; <hi>And finally, be ye all of one minde.</hi>
+               </p>
+               <p>I dare not, but ſet the Church-doors wide open to all, who come home to the Church, there is yet time, be<g ref="char:EOLhyphen"/>fore the Door be ſhut. The Thief was welcome to Chriſt at the laſt hour; So
+<pb n="80" facs="tcp:49438:46"/>
+                  <hi>Peter</hi> hath given almoſt as large a time for the diſſenting Brethren to return: Beſides, there is a Royal Diſpenſation from our King, for what paſt; ſo that now you will accept of his grace, and obey St. <hi>Peter, And finally, be all of one minde, and love as brethren.</hi>
+               </p>
+               <p>Lo, it is unity of the Spirit, muſt make Amity among men; for as there is no <hi>union,</hi> where there is no <hi>love;</hi> ſo no <hi>love,</hi> where no <hi>union.</hi>
+               </p>
+               <p>He that pretends friendſhip to me at my table, and will not walk with me to the Lords Table, ſuch a friend is more to be feared then truſted; for he that makes no conſcience conſtantly to be a Separatiſt from the Holy Communion, hath little love to his own ſoul; And is it not high time then for me to ſet my <hi>Corps du guard?</hi>
+               </p>
+               <p>Union then in Gods ſervice, is the beſt Certificate, <hi>It is Peace:</hi> But look
+<pb n="81" facs="tcp:49438:46"/>at the tree, and look at the fruit, like tree, like fruit: Here is <hi>unity,</hi> and here is <hi>love.</hi>
+               </p>
+               <p>Give me leave, though <hi>Knocks</hi> began the Quarrel, yet to end in Love; long was it wiſhed, and much now to be hoped: A love one to another, aſſures we love our Lord and Maker; but he that loves not his Brother, neither dwel<g ref="char:EOLhyphen"/>leth the love of God in him.</p>
+               <p>Whatſoever went before, let love lead up the rear: And ſince no way but one to be certain, how God loves us, and we one another, the advice is, <hi>Finally, be ye all of one minde.</hi>
+               </p>
+               <p>
+                  <hi>Finally,</hi>] As if God of his goodneſs would give a Diſpenſation for what paſt, ſo that now at laſt <hi>ye all would be of one minde, and love as Brethren.</hi>
+               </p>
+               <p>Beloved, here is one newly lighted, who ſhall bring love to our lodging; it is Humility: Want Humility, and far<g ref="char:EOLhyphen"/>wel
+<pb n="82" facs="tcp:49438:47"/>Love to God, and Charity to men.</p>
+               <p>Every Key cannot open this Lock, <hi>Love;</hi> every Captain, cannot conquer this Caſtle; every Levite, muſt not look into this Ark; and yet Humility is the Key, Captain, and the Levite, that can unclock the Door, and win the Caſtle, and ſearch into that Ark, where lies this heavenly Treaſure, (Love) kept in earthen veſſels.</p>
+               <p>But as I have found out him, can bring Love to our houſes; ſo here's an<g ref="char:EOLhyphen"/>other will ſeat him in our hearts. The laſt born is the ſtrongeſt man; the laſt word the moſt forcible inducement, to move this our whole Iſle to live in love.</p>
+               <p>We be <hi>Brethren,</hi> all of us by Crea<g ref="char:EOLhyphen"/>tion, many of us by Nation, moſt of us by Profeſſion; nay more, God is our Father, and the Church our Mo<g ref="char:EOLhyphen"/>ther.
+<pb n="83" facs="tcp:49438:47"/>What, Full Brethren! it is a ſhame then to fall out, and live at odds, <hi>Geneſ.</hi> 45.24. O let us love for Bre<g ref="char:EOLhyphen"/>thren.</p>
+               <p>It was <hi>Abrahams Argument</hi> to <hi>Lot, Let there be no difference betwixt thy Herdſmen and mine, for we be Bre<g ref="char:EOLhyphen"/>thren.</hi>
+               </p>
+               <p>We are of the ſame Mould, live in the ſame Land, profeſs the <hi>ſame Faith;</hi> And ſhall we differ? That Tripartite tie of Nature, Nation, and Religion, are ſerious Motives to bury all diſcon<g ref="char:EOLhyphen"/>tents, and renew a peace, <hi>and love as Brethren.</hi>
+               </p>
+               <p>Nay, he is guilty of death <hi>in foro po<g ref="char:EOLhyphen"/>li,</hi> that lives not in love <hi>in foro ſoli;</hi> for love is the fulfilling of the Law.</p>
+               <p>Again, <hi>my hearty charity</hi> to <hi>my neigh<g ref="char:EOLhyphen"/>bour,</hi> clears <hi>me</hi> of <hi>my debt</hi> to God; for God will forgive all, ſo we will forgive one another.</p>
+               <pb n="84" facs="tcp:49438:48"/>
+               <p> I am reſolved to ſend a defiance to Diſcord, and to live in peace with all Mankinde: Thus I ſhall be enſured of the love of God and Man; of Grace here, and Glory in Heaven: Which Glory, that we may all inherit, let us hence forward <hi>be all of one minde, and love as brethren.</hi>
+               </p>
+               <trailer>FINIS.</trailer>
+            </div>
+         </div>
+      </body>
+      <back>
+         <div type="imprimatur">
+            <pb facs="tcp:49438:48"/>
+            <p>Imprimatur,</p>
+            <closer>
+               <signed>
+                  <hi>G<g ref="char:V">Ʋ</g>LIELM<g ref="char:V">Ʋ</g>S LIGHTB<g ref="char:V">Ʋ</g>RNE,</hi> Capellanus Reverendiſſimi Patris JACOBI DUBLIN. Archiep. &amp;c.</signed>
+            </closer>
+         </div>
+         <div type="publishers_advertisement">
+            <pb facs="tcp:49438:49"/>
+            <head>THESE BOOKS ARE Put out by this AUTHOR.</head>
+            <p>THe Lords Prayer unclaſpt.</p>
+            <p>The <hi>Plea</hi> for the Common-prayer Book.</p>
+            <p>The <hi>Paſſing-Bell</hi> rung out.</p>
+            <p>The Miniſters Office, the Infants In<g ref="char:EOLhyphen"/>heritance, or a pair of Spectacles for the Anabaptiſts.</p>
+         </div>
+      </back>
+   </text>
+</TEI>
